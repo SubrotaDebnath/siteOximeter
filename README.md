@@ -1,13 +1,8 @@
 # siteOximeter
 
-<<<<<<< HEAD
-VS Code Editor Setup
-extensions:
 =======
 <br/>
 // config related to code formatting <br/>
-
->>>>>>> 68f3f460fccaac626e5717a3f1893fcb82c3a9fe
 
 <p>"editor.defaultFormatter": "esbenp.prettier-vscode",</p>
 <p>"editor.formatOnSave": true,</p>
@@ -21,12 +16,11 @@ extensions:
   <p>},</p>
   <p>"eslint.alwaysShowStatus": true</p>
 
-
-
 <br/>
 <br/>
 
 Install Dev Dependencies <br/>
+
 <p>yarn add -D eslint prettier<p/>
 <p>npx install-peerdeps --dev eslint-config-airbnb-base<p/>
 <p>yarn add -D eslint-config-prettier eslint-plugin-prettier<p/>
