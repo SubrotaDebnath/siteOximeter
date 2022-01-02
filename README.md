@@ -1,39 +1,39 @@
 # siteOximeter
 
+<<<<<<< HEAD
 VS Code Editor Setup
 extensions:
+=======
+<br/>
+// config related to code formatting <br/>
 
-ESLint
-Prettier
-Path Autocomplete
-Settings
-Go to your Visual Stuido Code settings.json file and add the below settings there:
+>>>>>>> 68f3f460fccaac626e5717a3f1893fcb82c3a9fe
 
-// config related to code formatting
-"editor.defaultFormatter": "esbenp.prettier-vscode",
-"editor.formatOnSave": true,
-"[javascript]": {
-"editor.formatOnSave": false,
-"editor.defaultFormatter": null
-},
-"editor.codeActionsOnSave": {
-"source.fixAll.eslint": true,
-"source.organizeImports": true
-},
-"eslint.alwaysShowStatus": true
-Set Line Breaks
-Make sure in your VS Code Editor, "LF" is selected as line feed instead of CRLF (Carriage return and line feed). To do that, just click LF/CRLF in bottom right corner of editor, click it and change it to "LF". If you dont do that, you will get errors in my setup.
+<p>"editor.defaultFormatter": "esbenp.prettier-vscode",</p>
+<p>"editor.formatOnSave": true,</p>
+  <p>"[javascript]": {</p>
+  <p>"editor.formatOnSave": false,</p>
+  <p>"editor.defaultFormatter": null</p>
+  <p>},</li>
+  <p>"editor.codeActionsOnSave": {</p>
+  <p>"source.fixAll.eslint": true,</p>
+  <p> "source.organizeImports": true</p>
+  <p>},</p>
+  <p>"eslint.alwaysShowStatus": true</p>
 
-Line Feed
 
-Linting Setup
-In order to lint and format your code automatically according to popular airbnb style guide, I recommend you to follow the instructions as described in video. References are as below.
 
-Install Dev Dependencies
-yarn add -D eslint prettier
-npx install-peerdeps --dev eslint-config-airbnb-base
-yarn add -D eslint-config-prettier eslint-plugin-prettier
-Setup Linting Configuration file
+<br/>
+<br/>
+
+Install Dev Dependencies <br/>
+<p>yarn add -D eslint prettier<p/>
+<p>npx install-peerdeps --dev eslint-config-airbnb-base<p/>
+<p>yarn add -D eslint-config-prettier eslint-plugin-prettier<p/>
+
+<br/>
+<br/>
+<br/>
 Create a .eslintrc.json file in the project root and enter the below contents:
 
 {
