@@ -1,10 +1,7 @@
 # siteOximeter
 
 VS Code Editor Setup
-In order to follow along the tutorial series, I recommend you to use Visual Studio Code Editor and install & apply the below extensions and settings.
-
-Extensions
-Install the below extensions:
+extensions:
 
 ESLint
 Prettier
